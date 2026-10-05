@@ -37,9 +37,14 @@ This section will be updated as pages are added or moved. It provides a quick re
 | Page | English | French | Status |
 | --- | --- | --- | --- |
 | Home | `en/home.html` | `fr/home.html` | In progress |
-| Accessible Transportation | `en/accessible-transportation/` | `fr/transports-accessibles/` | In progress |
+| Accessible Transportation | `en/accessible-transportation.html/` | `fr/transports-accessibles.html/` | In progress |
 
-Additional pages will be added here as the migration progresses.
+### Accessible Transportation
+
+| Page | English | French | Status |
+| --- | --- | --- | --- |
+| Accessible Transportation | `en/accessible-transportation/guidance-and-resources.html` | `fr/transports-accessibles/documents-orientation-et-ressources.html` | Complete |
+
 
 ## Organization
 
