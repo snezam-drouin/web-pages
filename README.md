@@ -12,17 +12,17 @@ Because the CTA website is bilingual, English and French pages will be kept in s
 
 Example structure:
 
+```text
 ├── en/
 │   ├── home.html
 │   ├── accessible-transportation/
 │   └── ...
-│
 ├── fr/
 │   ├── home.html
 │   ├── transports-accessibles/
 │   └── ...
-│
 └── README.md
+```
 
 - `en/` – English pages
 - `fr/` – French pages
