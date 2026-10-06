@@ -1,6 +1,6 @@
-# CTA Website Migration – Web Pages
+# Website Migration – Web Pages
 
-This repository contains HTML pages for the Canadian Transportation Agency (CTA) website migration from Drupal to Adobe Experience Manager (AEM) on Canada.ca.
+This repository contains HTML pages for A website migration from Drupal to Adobe Experience Manager (AEM).
 
 The pages follow the new website sitemap, starting with `home.html` and continuing through sections such as Accessible Transportation and other CTA content areas.
 
@@ -8,7 +8,7 @@ This repository provides one place to keep the HTML organized and updated throug
 
 ## Repository Structure
 
-Because the CTA website is bilingual, English and French pages will be kept in separate folders.
+Because the website is bilingual, English and French pages will be kept in separate folders.
 
 Example structure:
 
