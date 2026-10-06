@@ -1,0 +1,435 @@
+<h1 property="name" id="wb-cont">Consultations</h1>
+
+<p>L'Office des transports du Canada tient à consulter les Canadiens. Grâce aux consultations, l'Office peut mieux comprendre le point de vue du public, des intervenants et des experts et ainsi élaborer des politiques et des programmes mieux adaptés et plus efficaces pour les Canadiens.</p>
+
+<p>Pour obtenir des conseils en matière d'accessibilité, l'Office consulte son <a href="https://otc-cta.gc.ca/fra/comite-consultatif-sur-laccessibilite">Comité consultatif sur l'accessibilité</a>.</p>
+
+
+<div class="row">
+    <!-- Sidebar Filter Column -->
+    <div class="col-md-3">
+        <h4 class="wb-inv">Options de filtrage</h4>
+        <details open="open">
+            <summary><h4 class="h4">Options de filtrage</h4></summary>
+            <p class="mrgn-tp-md">Utilisez les filtres ci-dessous pour modifier la cible de vos résultats dans le tableau de données suivant.</p>
+            
+            <form class="wb-tables-filter" data-bind-to="dataset-filter1" id="form-filter-datatable">
+                <!--Filter by Status-->
+                <div class="form-group">
+                    <label for="dt_status">État</label>
+                    <select class="form-control" id="dt_status" name="dt_status" data-column="2">
+                        <option value="">Tous les états</option>
+                        <option value="Ouverte">Ouverte</option>
+                        <option value="Fermée">Fermée</option>
+                        <option value="Examen">En cours d'examen</option>
+                        <option value="Publiés">Résultats publiés</option>
+                    </select>
+                </div>
+                
+                <!--Filter by Topic-->
+                <div class="form-group">
+                    <label for="dt_topic">Sujet</label>
+                    <select class="form-control" id="dt_topic" name="dt_topic" data-column="3">
+                        <option value="">Tous les sujets</option>
+                        <option value="accessible">Transports accessibles</option>
+                        <option value="aerien">Aérien</option>
+                        <option value="ferroviaire">Ferroviaire</option>
+                        <option value="maritime">Maritime</option>
+                        <option value="organisationnel">Organisationnel</option>
+                    </select>
+                </div>
+
+                <!--Filter Buttons-->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" aria-controls="dataset-filter1">Filtrer</button>
+                </div>
+                <div class="form-group">
+                    <button type="reset" class="btn btn-link btn-sm p-0">Réinitialiser</button>
+                </div>
+            </form>
+        </details>
+    </div>
+
+    <!-- Main Table Column -->
+    <div class="col-md-9">
+        
+        <div class="table-responsive">
+            
+            <!-- ADDED "paging": true AND "pageLength": 10 -->
+            <table class="wb-tables table table-hover" id="dataset-filter1" data-wb-tables='{ "bDeferRender": true, "paging": true, "pageLength": 10, "order": [[1, "desc"]], "columns": [ { "visible": false }, { "visible": false }, { "visible": false }, { "visible": false }, { "visible": true, "orderData": [1] } ] }'>
+                
+                <thead>
+                    <tr>
+                        <!-- Hidden data columns for filtering and sorting (wb-inv hides them immediately) -->
+                        <th class="wb-inv">Année</th>
+                        <th class="wb-inv">Date de début</th>
+                        <th class="wb-inv">État</th>
+                        <th class="wb-inv">Sujet</th>
+                        <!-- The single visible column -->
+                        <th scope="col">Consultation</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <!--OPEN-->
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-09-22</td>
+                        <td class="wb-inv">Ouverte</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-elargie-modeles-prevision-lipfc-v">Consultation sur les modèles de prévision de l'IPFC-V</a></h3>
+                            <p><span class="label label-success">Ouverte</span></p>
+                            <p><strong>Date limite pour soumettre des commentaires:</strong> Mardi 22 septembre 2026</p>
+                        </td>
+                    </tr>
+                
+                    <!--CLOSED-->
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-06-29</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-voie-contournement-lac-megantic-rapport-uda-reponse-cmqr">Consultation sur la voie de contournement ferroviaire de Lac-Mégantic concernant le rapport du Groupe Conseil UDA et la réponse de la CMQR</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 29 juin 2026</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-06-19</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-facteurs-marche-commercial-prendre-consideration-determiner-prix-interconnexion-justes-raisonnables">Consultation sur les facteurs du marché commercial à prendre en considération pour déterminer les prix d'interconnexion justes et raisonnables</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 19 juin 2026</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-01-30</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demande-approbation-projet-voie-contournement-ferroviaire-lac-megantic">Consultation sur la demande d'approbation du projet de voie de contournement ferroviaire de Lac-Mégantic</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 30 janvier 2026</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-10-31</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-indice-prix-composite-fonction-volume-2025">Consultation sur l'indice de prix composite en fonction du volume, 2025</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 31 octobre 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2025-07-24</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demande-exemption-exigences-depot-publication-taxes-fixees-tarifs-transporteurs-aeriens">Consultation sur une demande d'exemption des exigences de dépôt et de publication pour les taxes fixées dans les tarifs des transporteurs aériens</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 24 juillet 2025</p>
+                            <p><a href="https://otc-cta.gc.ca/fra/decision/a-2026-31">Détermination n<sup>o</sup> A-2026-31</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-05-16</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-chemin-fer-baffinland-steensby">Consultation sur le chemin de fer de Baffinland Steensby</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 16 mai 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-04-25</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-interconnexion-2024">Consultation sur l'interconnexion de 2024</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 25 avril 2025</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/r-2026-41">n<sup>o</sup> R-2026-41.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-03-06</td>
+                        <td class="wb-inv">Fermée</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-projet-modification-reglement-protection-passagers-aeriens-rppa-publie-gazette-canada-partie-i">Consultation sur le projet de modification du Règlement sur la protection des passagers aériens (RPPA) publié dans la Gazette du Canada, Partie I, le 21 décembre 2024</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 6 mars 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-02-28</td>
+                        <td class="wb-inv">Avis préalable</td>
+                        <td class="wb-inv">organisationnel</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/avis-prealable-modifications-proposees-otc-reglement-textes-designes-office-transports-canada">Avis préalable des modifications proposées par l'OTC au Règlement sur les textes désignés (Office des transports du Canada)</a></h3>
+                            <p><span class="label label-danger">Fermée</span></p>
+                            <p><strong>Fermée:</strong> 28 février 2025</p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-06-27</td>
+                        <td class="wb-inv">Examen</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-proposition-frais-plaintes-relatives-aux-voyages-aeriens">Consultation sur la proposition de frais pour les plaintes relatives aux voyages aériens</a></h3>
+                            <p><span class="label label-warning">En cours d'examen</span></p>
+                            <p><strong>Fermée:</strong> 4 novembre 2024</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2024</td>
+                        <td class="wb-inv">2024-06-20</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demandes-exemptions-conditionnelles-reglement-transports-accessibles-personnes-handicapees">Consultation concernant des demandes d’exemptions conditionnelles : Règlement sur les transports accessibles aux personnes handicapées reçues le 6 juillet 2023 et le 23 octobre 2023</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 20 juin 2024</p>
+                            <p>Voir les déterminations n<sup>os</sup> <a href="https://otc-cta.gc.ca/fra/decision/at-2025-11">AT-2025-11</a>, <a href="https://otc-cta.gc.ca/fra/decision/at-2025-12">AT-2025-12 </a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2023</td>
+                        <td class="wb-inv">2023-08-10</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-modifications-proposees-renforcer-reglement-protection-passagers-aeriens">Consultation sur les modifications proposées pour renforcer le Règlement sur la protection des passagers aériens</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 10 août 2023</p>
+                            <p>Voici <a href="https://otc-cta.gc.ca/fra/publication/voici-ce-que-nous-avons-entendu-modifications-proposees-renforcer-reglement-protection-passagers-aeriens">ce que nous avons entendu</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2023</td>
+                        <td class="wb-inv">2023-03-29</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-embranchement-jansen-cn">Consultation sur l'embranchement Jansen du CN</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 29 mars 2023</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/r-2023-156">n<sup>o</sup> R-2023-156</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-08-05</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demande-exemption-conditionnelle-reglement-transports-accessibles-personnes-handicapees-juin-2022">Consultation sur une demande d'exemption conditionnelle au Règlement sur les transports accessibles aux personnes handicapées reçue le 13 juin 2022</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 5 août 2022</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/a-2022-165">n<sup>o</sup> A-2022-165</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-10-01</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/projet-reglement-modifiant-reglement-protection-passagers-aeriens">Projet de règlement modifiant le Règlement sur la protection des passagers aériens</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 1 octobre 2021</p>
+                            <p>Voir le <a href="https://www.otc-cta.gc.ca/fra/contenu/nouveau-reglement-sur-les-remboursements">Règlement modifiant le Règlement sur la protection des passagers aériens.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-04-08</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-dette-fins-generales">Consultation sur la dette à des fins générales</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 8 avril 2022</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/r-2022-39">n<sup>o</sup> R-2022-39</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-04-18</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/projet-reglement-planification-rapports-matiere-transports-accessibles">Projet de Règlement sur la planification et les rapports en matière de transports accessibles</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 18 avril 2021</p>
+                            <p>Voir le <a href="https://www.otc-cta.gc.ca/fra/reglement-planification-rapports-matiere-transports-accessibles">Règlement sur la planification et les rapports en matière de transports accessibles</a></p>
+                        </td>
+                    </tr>                  
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-04-01</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demande-exemptions-conditionnelles-reglement-transports-accessibles-personnes-handicapees">Consultation sur une demande d'exemptions conditionnelles au Règlement sur les transports accessibles aux personnes handicapées reçue le 30 juillet 2020</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 1er avril 2021</p>
+                            <p>Voir les déterminations n<sup>os</sup> <a href="https://otc-cta.gc.ca/fra/decision/a-2022-10">A-2022-10</a>, <a href="https://otc-cta.gc.ca/fra/decision/a-2022-56">A-2022-56.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-03-31</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/phase-ii-consultation-lignes-directrices-transports-accessibles-moyens-petits-fournisseurs">Phase II - Consultation sur les Lignes directrices sur les transports accessibles pour les moyens et petits fournisseurs de services de transport</a></h3>
+                            <p><span class="label label-warning">En cours d'examen</span></p>
+                            <p><strong>Fermée:</strong> 31 mars 2021</p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-02-15</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://www.otc-cta.gc.ca/fra/consultation/consultation-demandes-exemptions-temporaires-reglement-transports-accessibles-personnes-handicapees">Consultation concernant les demandes d’exemptions temporaires au Règlement sur les transports accessibles aux personnes handicapées</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 15 février 2021</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/at-2021-151">n<sup>o</sup> AT-2021-151</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-01-29</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-demandes-ajustements-temporaires-reglement-protection-passagers-aeriens">Consultation sur les demandes d'ajustements temporaires au Règlement sur la protection des passagers aériens</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 29 janvier 2021</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/a-2021-54">n<sup>o</sup> A-2021-54</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-04-08</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-taux-cout-capital">Consultation sur les taux de coût du capital</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 8 avril 2022</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/r-2022-39">n<sup>o</sup> R-2022-39</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-10-27</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">aerien</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/interconnexion-reglementee-modifications-proposees-etablissement-prix-facturation">Interconnexion réglementée : Modifications proposées à l'établissement des prix et à la facturation</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 27 octobre 2020</p>
+                            <p>Voici <a href="https://otc-cta.gc.ca/fra/publication/consultations-modifications-proposees-etablissement-prix-facturation-interconnexion-ce-nous-avons-entendu">ce que nous avons entendu</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-08-12</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/compagnie-chemins-fer-nationaux-canada-relocalisation-embranchement-champlain">Compagnie des chemins de fer nationaux du Canada – Relocalisation de l'embranchement Champlain</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 12 août 2020</p>
+                            <p>Voir la détermination <a href="https://otc-cta.gc.ca/fra/decision/r-2020-166">n<sup>o</sup> R-2020-166</a></p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-02-28</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/transports-accessibles-phase-ii">Transports accessibles, phase II</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 28 février 2020</p>
+                            <p><a href="https://otc-cta.gc.ca/fra/consultations-phase-ii-reglement-transports-accessibles-personnes-handicapees-ce-nous-avons-entendu">Voici ce que nous avons entendu</a></p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2019</td>
+                        <td class="wb-inv">2019-08-20</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">ferroviaire</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/consultation-approche-otc-etablissement-prix-interconnexion-reglementes">Consultation sur l'approche de l'OTC pour l'établissement des prix d'interconnexion réglementés</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 20 août 2019</p>
+                            <p>Voir les déterminations n<sup>os</sup> <a href="https://otc-cta.gc.ca/fra/decision/r-2019-229">R-2019-229, </a><a href="https://otc-cta.gc.ca/fra/decision/r-2019-230">R-2019-230, </a><a href="https://otc-cta.gc.ca/fra/decision/r-2020-194">R-2020-194</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2016</td>
+                        <td class="wb-inv">2016-09-30</td>
+                        <td class="wb-inv">Publiés</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/fra/consultation/transports-accessibles-phase-i">Transports accessibles, phase I</a></h3>
+                            <p><span class="label label-primary">Résultats publiés</span></p>
+                            <p><strong>Fermée:</strong> 30 septembre 2016</p>
+                            <p>Voir le <a href="https://laws-lois.justice.gc.ca/fra/reglements/DORS-2019-244/index.html">Règlement sur les transports accessibles aux personnes handicapées</a></p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>

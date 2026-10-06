@@ -1,0 +1,436 @@
+<h1 property="name" id="wb-cont">Consultations</h1>
+
+<div>
+    <p>The Canadian Transportation Agency is committed to consulting with Canadians. Through consultations, the Agency gains a greater understanding of different perspectives from the public, stakeholders and experts and therefore develops more informed and effective policies and programs.</p>
+    <p>For advice on accessibility issues, the Agency also consults its <a href="https://otc-cta.gc.ca/eng/accessibility-advisory-committee">Accessibility Advisory Committee</a>.</p>
+</div>
+
+
+<div class="row">
+    <!-- Sidebar Filter Column -->
+    <div class="col-md-3">
+        <h4 class="wb-inv">Filtering options</h4>
+        <details open="open">
+            <summary><h4 class="h4">Filter options</h4></summary>
+            <p class="mrgn-tp-md">Use filters to below options to change the focus of your results in following data table</p>
+            
+            <form class="wb-tables-filter" data-bind-to="dataset-filter1" id="form-filter-datatable">
+                <!--Filter by Status-->
+                <div class="form-group">
+                    <label for="dt_status">Status</label>
+                    <select class="form-control" id="dt_status" name="dt_status" data-column="2">
+                        <option value="">All status</option>
+                        <option value="Open">Open</option>
+                        <option value="Closed">Closed</option>
+                        <option value="Review">Under Review</option>
+                        <option value="Report">Results Published</option>
+                    </select>
+                </div>
+                
+                <!--Filter by Topic-->
+                <div class="form-group">
+                    <label for="dt_topic">Topic</label>
+                    <select class="form-control" id="dt_topic" name="dt_topic" data-column="3">
+                        <option value="">All Topics</option>
+                        <option value="accessible">Accessible Transportation</option>
+                        <option value="air">Air</option>
+                        <option value="rail">Rail</option>
+                        <option value="marine">Marine</option>
+                        <option value="corporate">Corporate</option>
+                    </select>
+                </div>
+
+                <!--Filter Buttons-->
+                <div class="form-group">
+                    <button type="submit" class="btn btn-primary" aria-controls="dataset-filter1">Filter</button>
+                </div>
+                <div class="form-group">
+                    <button type="reset" class="btn btn-link btn-sm p-0">Reset</button>
+                </div>
+            </form>
+        </details>
+    </div>
+
+    <!-- Main Table Column -->
+    <div class="col-md-9">
+        
+        <div class="table-responsive">
+            
+            <!-- ADDED "paging": true AND "pageLength": 10 -->
+            <table class="wb-tables table table-hover" id="dataset-filter1" data-wb-tables='{ "bDeferRender": true, "paging": true, "pageLength": 10, "order": [[1, "desc"]], "columns": [ { "visible": false }, { "visible": false }, { "visible": false }, { "visible": false }, { "visible": true, "orderData": [1] } ] }'>
+                
+                <thead>
+                    <tr>
+                        <!-- Hidden data columns for filtering and sorting (wb-inv hides them immediately) -->
+                        <th class="wb-inv">Year</th>
+                        <th class="wb-inv">Start date</th>
+                        <th class="wb-inv">Status</th>
+                        <th class="wb-inv">Topic</th>
+                        <!-- The single visible column -->
+                        <th scope="col">Consultation</th>
+                    </tr>
+                </thead>
+                
+                <tbody>
+                    <!--OPEN-->
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-09-22</td>
+                        <td class="wb-inv">Open</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="/content/canadasite/en/transportation-agency/consultations/extended-consultation-vrcpi-forecast-models.html">VRCPI Forecast Models Consultation</a></h3>
+                            <p><span class="label label-success">Open</span></p>
+                            <p><strong>Deadline to submit comments:</strong> Tuesday, September 22, 2026</p>
+                        </td>
+                    </tr>
+                
+                    <!--CLOSED-->
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-06-29</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="/content/canadasite/en/transportation-agency/consultations/lac-megantic-bypass-consultation-groupe-conseil-uda-report-and-cmqr-response.html">Lac‑Mégantic Bypass Consultation on Groupe Conseil UDA Report and CMQR’s response</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> June 29, 2026</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-06-19</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="/content/canadasite/en/transportation-agency/consultations/consultation-on-commercial-market-factors-to-be-considered-in-determining-fair-and-reasonable-interswitching-rates.html">Consultation on commercial market factors to be considered in determining fair and reasonable interswitching rates</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> June 19, 2026</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2026-01-30</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/lac-megantic-bypass-railway-consultation">Consultation on the Application for Authorization of the Lac-Mégantic Rail Bypass Project</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> January 30, 2026</p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-10-31</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/volume-related-composite-price-index-consultation-2025">Volume-Related Composite Price Index Consultation, 2025</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> October 31, 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2026</td>
+                        <td class="wb-inv">2025-07-24</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-request-exemptions-filing-and-publication-requirements-tolls-set-out">Consultation on request for exemptions from filing and publication requirements for tolls set out in air carriers' tariffs</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> July 24, 2025</p>
+                            <p><a href="https://otc-cta.gc.ca/eng/ruling/a-2026-31">Determination No. A-2026-31</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-05-16</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/baffinland-steensby-railway-consultation">Baffinland Steensby Railway Consultation</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> May 16, 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-04-25</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/2024-interswitching-consultation">2024 Interswitching consultation</a></h3>
+                            <p><span class="label label-primary">Results published</span></p>
+                            <p><strong>Closed:</strong> April 25, 2025</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/r-2026-41">N<sup>o</sup>. R-2026-41.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-03-06</td>
+                        <td class="wb-inv">Closed</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-proposed-amendments-air-passenger-protection-regulations-appr">Consultation on proposed amendments to the Air Passenger Protection Regulations (APPR) published in the Canada Gazette, Part I, on December 21, 2024</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> March 6, 2025</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2025</td>
+                        <td class="wb-inv">2025-02-28</td>
+                        <td class="wb-inv">advance notice</td>
+                        <td class="wb-inv">corporate</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/advance-notice-ctas-proposed-amendments-canadian-transportation-agency-designated">Advance notice of CTA's proposed amendments to the Canadian Transportation Agency Designated Provisions Regulations</a></h3>
+                            <p><span class="label label-danger">Closed</span></p>
+                            <p><strong>Closed:</strong> February 28, 2025</p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2024</td>
+                        <td class="wb-inv">2024-11-04</td>
+                        <td class="wb-inv">Review</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-proposal-air-travel-complaints-fee">Consultation on Proposal for Air Travel Complaints Fee</a></h3>
+                            <p><span class="label label-warning">Under Review</span></p>
+                            <p><strong>Closed:</strong> November 4, 2024</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2024</td>
+                        <td class="wb-inv">2024-06-20</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-requests-conditional-exemptions-catsa-cbsa-atpdr">Consultation on requests for Conditional Exemptions: Accessible Transportation for Persons with Disabilities Regulations received on July 6, 2023 and on October 23, 2023</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> June 20, 2024</p>
+                            <p>See Determinations N<sup>o</sup>s. <a href="https://otc-cta.gc.ca/eng/ruling/at-2025-11">AT-2025-11</a>, <a href="https://otc-cta.gc.ca/eng/ruling/at-2025-12">AT-2025-12 </a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2023</td>
+                        <td class="wb-inv">2023-08-10</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-proposed-changes-strengthen-air-passenger-protection-regulations">Consultation on proposed changes to strengthen the Air Passenger Protection Regulations</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> August 10, 2023</p>
+                            <p>Here's <a href="https://otc-cta.gc.ca/eng/publication/what-we-heard-proposed-changes-strengthen-air-passenger-protection-regulations">What We Heard</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2023</td>
+                        <td class="wb-inv">2023-03-29</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/cn-jansen-spur-consultation">CN Jansen Spur Consultation</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> March 29, 2023</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/r-2023-156">N<sup>o</sup>. R-2023-156</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-08-05</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-request-conditional-exemption-accessible-transportation-persons-june2022">Consultation on Request for Conditional Exemption from the Accessible Transportation for Persons with Disabilities Regulations received on June 13, 2022</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> August 5, 2022</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/publication/what-we-heard-proposed-changes-strengthen-air-passenger-protection-regulations">N<sup>o</sup>. A-2022-165</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-10-01</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/proposed-regulations-amending-air-passenger-protection-regulations">Proposed Regulations Amending the Air Passenger Protection Regulations</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> October 1, 2021</p>
+                            <p>See the <a href="https://www.otc-cta.gc.ca/eng/content/new-refund-regulations">Regulations Amending the Air Passenger Protection Regulations.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-04-08</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-general-purpose-debt">Consultation on General Purpose Debt</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> April 8th, 2022</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/r-2022-39">N<sup>o</sup>. R-2022-39</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-04-18</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/proposed-accessible-transportation-planning-and-reporting-regulations">Proposed Accessible Transportation Planning and Reporting Regulations</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong>  April 18, 2021</p>
+                            <p>See the <a href="https://www.otc-cta.gc.ca/eng/accessible-transportation-planning-and-reporting-regulations">Accessible Transportation Planning and Reporting Regulations</a></p>
+                        </td>
+                    </tr>                    
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-04-01</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-request-conditional-exemptions-accessible-transportation-persons">Consultation on Request for Conditional Exemptions from the Accessible Transportation for Persons with Disabilities Regulations received on July 30, 2020</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> April 1st, 2021</p>
+                            <p>See Determination N<sup>o</sup>s. <a href="https://otc-cta.gc.ca/eng/ruling/a-2022-10">A-2022-10</a>, <a herf="https://otc-cta.gc.ca/eng/ruling/a-2022-56">A-2022-56.</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-03-31</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-accessible-transportation-guidelines-medium-and-small-transportation">Phase II - Consultation on Accessible Transportation Guidelines for Medium and Small Transportation Service Providers</a></h3>
+                            <p><span class="label label-warning">Under Review</span></p>
+                            <p><strong>Closed:</strong> March 31, 2021</p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-02-15</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://www.otc-cta.gc.ca/eng/consultation/consultation-requests-temporary-exemptions-accessible-transportation-persons">Consultation on Requests for Temporary Exemptions from the Accessible Transportation for Persons with Disabilities Regulations</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> February 15, 2021</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/at-2021-151">N<sup>o</sup>. AT-2021-151</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2021</td>
+                        <td class="wb-inv">2021-01-29</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/public-consultation-requests-temporary-adjustments-air-passenger-protection-regulations">Consultation on Requests for Temporary Adjustments to the Air Passenger Protection Regulations</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> January 29, 2021</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/a-2021-54">N<sup>o</sup>. A-2021-54</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2022</td>
+                        <td class="wb-inv">2022-04-08</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-cost-capital-rates">Consultation on Cost of Capital Rates</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> April 8th, 2022</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/ruling/r-2022-39">N<sup>o</sup>. R-2022-39</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-10-27</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">air</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/regulated-interswitching-proposed-changes-rate-setting-and-billing">Regulated Interswitching: Proposed Changes To Rate-Setting And Billing</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> October 27, 2020</p>
+                            <p>Here's <a href="https://otc-cta.gc.ca/eng/publication/consultations-proposed-changes-interswitching-rate-setting-and-billing-what-we-heard">What We Heard</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-08-12</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-canadian-national-railway-company-champlain-spur-relocation">Canadian National Railway Company – Champlain Spur Relocation</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> August 12, 2020</p>
+                            <p>See Determination <a href="https://otc-cta.gc.ca/eng/publication/consultations-proposed-changes-interswitching-rate-setting-and-billing-what-we-heard">N<sup>o</sup>. R-2020-166</a></p>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td class="wb-inv">2020</td>
+                        <td class="wb-inv">2020-02-28</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/accessible-transportation-persons-with-disabilities-regulations">Accessible transportation, Phase II</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> February 28, 2020</p>
+                            <p><a href="https://otc-cta.gc.ca/eng/consultations-phase-ii-accessible-transportation-persons-disabilities-regulations-what-we-heard">Here's What We Heard</a></p>
+                        </td>
+                    </tr> 
+
+                    <tr>
+                        <td class="wb-inv">2019</td>
+                        <td class="wb-inv">2019-08-20</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">rail</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/consultation-cta-approach-setting-regulated-interswitching-rates">Consultation on the CTA Approach to Setting Regulated Interswitching Rates</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> August 20, 2019</p>
+                            <p>See Determination N<sup>o</sup>s.<a href="https://otc-cta.gc.ca/eng/ruling/r-2019-229"> R-2019-229, </a><a herf="https://otc-cta.gc.ca/eng/ruling/r-2019-230">R-2019-230, </a><a herf="https://otc-cta.gc.ca/eng/ruling/r-2020-194">R-2020-194</a></p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td class="wb-inv">2016</td>
+                        <td class="wb-inv">2016-09-30</td>
+                        <td class="wb-inv">Report</td>
+                        <td class="wb-inv">accessible</td>
+                        <td>
+                            <h3 class="mrgn-tp-0"><a href="https://otc-cta.gc.ca/eng/consultation/accessible-transportation-consultation">Accessible transportation, Phase I</a></h3>
+                            <p><span class="label label-primary">Results Published</span></p>
+                            <p><strong>Closed:</strong> September 30, 2016</p>
+                            <p>See the <a href="https://laws-lois.justice.gc.ca/eng/regulations/SOR-2019-244/index.html">Accessible Transportation for Persons with Disabilities Regulations</a></p>
+                        </td>
+                    </tr>
+
+                </tbody>
+            </table>
+        </div>
+        
+    </div>
+</div>
