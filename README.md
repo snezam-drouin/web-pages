@@ -72,7 +72,7 @@ This section will be updated as pages are added or moved. It provides a quick re
 ### Compliance monitoring and enforcement
 
 | Compliance monitoring and enforcement | `en/home/compliance-monitoring-and-enforcement.html/` | `fr/accueil.html/surveillance-conformite-et-application-de-loi.html` | In progress |
-
+| Compliance monitoring and enforcement | `en/home/compliance-monitoring-and-enforcement/monetary-penalty-framework.html/` | `TBD` | In progress |
 
 ### Consultations
 
