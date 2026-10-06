@@ -16,7 +16,11 @@ Example structure:
 ├── en/
 │   ├── home.html
 │   ├── accessible-transportation/
+│   ├── consultations/
+│   ├── news/
+│   ├── about-us/
 │   └── ...
+
 ├── fr/
 │   ├── home.html
 │   ├── transports-accessibles/
@@ -36,14 +40,43 @@ This section will be updated as pages are added or moved. It provides a quick re
 
 | Page | English | French | Status |
 | --- | --- | --- | --- |
-| Home | `en/home.html` | `fr/home.html` | In progress |
-| Accessible Transportation | `en/accessible-transportation.html/` | `fr/transports-accessibles.html/` | In progress |
+| Home | `en/home.html` | `fr/accueil.html` | In progress |
+| Accessible Transportation | `en/home/accessible-transportation.html/` | `fr/accueil/transports-accessibles.html/` | In progress |
+| Consultations | `en/home/consultations.html` | `fr/accueil/consultations.html` | Complete |
+| About us | `en/home/about-us.html` | `fr/accueil/a-propos-de-nous.html` | Complete - need updated images |
+
 
 ### Accessible Transportation
 
 | Page | English | French | Status |
 | --- | --- | --- | --- |
-| Accessible Transportation | `en/accessible-transportation/guidance-and-resources.html` | `fr/transports-accessibles/documents-orientation-et-ressources.html` | Complete |
+| Accessible Transportation | `en/accessible-transportation.html/` | `fr/transports-accessibles.html` | In progress |
+| Accessible transportation Guidance and Resources | `en/accessible-transportation/guidance-and-resources.html` | `fr/transports-accessibles/documents-orientation-et-ressources.html` | Complete |
+
+
+### National transportation system
+
+| National transportation system | `en/home/national-transportation-system.html/` | `fr/accueil/reseau-de-transport-national.html` | In progress |
+
+
+### Complaint and dispute resolution
+
+| Complaint and dispute resolution | `en/home/complaint-and-dispute-resolution.html/` | `fr/accueil/plainte-et-reglement-des-differends.html` | In progress |
+
+
+### Decisions and determinations
+
+| Decisions and determinations | `en/home/decisions-and-determinations.html/` | `fr/accueil/decisions-and-determinations.html` | In progress |
+
+
+### Compliance monitoring and enforcement
+
+| Compliance monitoring and enforcement | `en/home/compliance-monitoring-and-enforcement.html/` | `fr/accueil.html/surveillance-conformite-et-application-de-loi.html` | In progress |
+
+
+### Consultations
+
+| Consultations | `en/home/consultations.html/` | `fr/accueil/consultations.html` | In progress |
 
 
 ## Organization
