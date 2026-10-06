@@ -56,26 +56,36 @@ This section will be updated as pages are added or moved. It provides a quick re
 
 ### National transportation system
 
+| Page | English | French | Status |
+| --- | --- | --- | --- |
 | National transportation system | `en/home/national-transportation-system.html/` | `fr/accueil/reseau-de-transport-national.html` | In progress |
 
 
 ### Complaint and dispute resolution
 
+| Page | English | French | Status |
+| --- | --- | --- | --- |
 | Complaint and dispute resolution | `en/home/complaint-and-dispute-resolution.html/` | `fr/accueil/plainte-et-reglement-des-differends.html` | In progress |
 
 
 ### Decisions and determinations
 
+| Page | English | French | Status |
+| --- | --- | --- | --- |
 | Decisions and determinations | `en/home/decisions-and-determinations.html/` | `fr/accueil/decisions-and-determinations.html` | In progress |
 
 
 ### Compliance monitoring and enforcement
 
+| Page | English | French | Status |
+| --- | --- | --- | --- |
 | Compliance monitoring and enforcement | `en/home/compliance-monitoring-and-enforcement.html/` | `fr/accueil.html/surveillance-conformite-et-application-de-loi.html` | In progress |
 | Compliance monitoring and enforcement | `en/home/compliance-monitoring-and-enforcement/monetary-penalty-framework.html/` | `TBD` | In progress |
 
 ### Consultations
 
+| Page | English | French | Status |
+| --- | --- | --- | --- |
 | Consultations | `en/home/consultations.html/` | `fr/accueil/consultations.html` | In progress |
 
 
